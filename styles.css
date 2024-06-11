@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.containerheader {
+    display: flex;
+    flex-flow: column wrap;
+    background: #1F2937;
+    flex: 1;
+
+
+}
+
+.toppage {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.headerlogo {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 0px;
+}
+
+.headertitle {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+
+
+
