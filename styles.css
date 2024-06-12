@@ -10,6 +10,7 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+    
 }
 
 .containerheader {
@@ -17,13 +18,14 @@ a {
     flex-flow: column wrap;
     background: #1F2937;
     flex: 1;
-
-
+    justify-content: space-between;
 }
 
 .toppage {
     display: flex;
-    flex-flow: wrap;
+    justify-content: space-between;
+    padding-left: 16%;
+    padding-right: 16%;
 }
 
 .headerlogo {
@@ -32,17 +34,32 @@ a {
     margin-right: 0px;
 }
 
-.headertitle {
+.headertitle .headertitletext {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+
 }
+
 
 ul {
     display: flex;
     list-style: none;
 }
 
+.headerimage {
+    height: 175px;
+    width: 350px;
+}
+
+.topsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
