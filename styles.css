@@ -17,8 +17,9 @@ a {
     display: flex;
     flex-flow: column wrap;
     background: #1F2937;
-    flex: 1;
-    justify-content: space-between;
+    height: 30%;
+    
+    
 }
 
 .toppage {
@@ -59,6 +60,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    margin-top: 40px;
 }
 
 
