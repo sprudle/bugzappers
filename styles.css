@@ -13,11 +13,13 @@ a {
     
 }
 
+
+
 .containerheader {
     display: flex;
     flex-flow: column wrap;
     background: #1F2937;
-    height: 30%;
+    height: 28%;
     
     
 }
@@ -25,26 +27,39 @@ a {
 .toppage {
     display: flex;
     justify-content: space-between;
-    padding-left: 16%;
-    padding-right: 16%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .headerlogo {
+    display: flex;
     font-size: 18px;
     color: #E5E7EB;
     margin-right: 0px;
 }
+.headerlogo img{
+    display: flex;
+    width: 60px;
+}
 
-.headertitle .headertitletext {
+.headertitle  {
+    
+    flex-flow: column;
+    height: 175px;
+    width: 350px;
+}
+
+.headertitletext {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
     margin: 0px;
-    display: flex;
-    justify-content: space-between;
-
 }
 
+.topmediatext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 ul {
     display: flex;
@@ -59,9 +74,10 @@ ul {
 .topsection {
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    padding-left: 25%;
+    padding-right: 25%;
     margin-top: 40px;
+    justify-content: space-between;
 }
 
 
