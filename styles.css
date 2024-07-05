@@ -117,8 +117,8 @@ ul {
 .middlesection1info {
     display: flex;
     justify-content: center;
-    
-
+    margin-top: 0px;
+    padding: 0px;
 }
 
 
@@ -147,7 +147,7 @@ ul {
 .midsection1images p {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 /*--------------------------------------------*/
