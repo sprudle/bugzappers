@@ -21,8 +21,8 @@ a {
     flex-flow: column wrap;
     background: #1F2937;
     height: 28%;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 32%;
+    padding-right: 32%;
 
     
 }
@@ -47,8 +47,9 @@ a {
 .headertitle  {
     
     flex-flow: column;
-    height: 175px;
-    width: 350px;
+    height: 215px;
+    width: 420px;
+    gap: auto;
 }
 
 .headertitletext {
@@ -69,23 +70,29 @@ ul {
 }
 
 .headerimage {
-    height: 175px;
-    width: 350px;
+    height: 191px;
+    width: 420px;
 }
 
 .topsection {
     display: flex;
     justify-content: center;
+    justify-content: space-between;
 
     margin-top: 70px;
-    justify-content: space-between;
 }
 
-.primary button {
+.topsectionmedia {
+    display: flex;
+    flex-flow: column;
+    gap: auto;
+}
+
+.primary-button {
     background-color: #3882F6;
     color: white;
     border: none;
-    width: 350px;
+    width: 420px;
     padding: 6px;
     border-radius: 20px;
 }
