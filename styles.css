@@ -163,7 +163,7 @@ ul {
 .middlesection2 {
     display: flex;
     flex-flow: column;
-    height: 22%;
+    height: 20%;
     background-color: #E5E7EB;
     justify-content: center;
     padding-left: 37%;
@@ -185,4 +185,40 @@ ul {
     font-size: 20px;
     font-weight: bold;
     margin: 0px;
+}
+
+/* ---------------------------------------------------- */
+
+.endsection {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 19%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.endsectioncontainer {
+    display: flex;
+    flex-flow: column;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.button-secondary {
+    display: flex;
+    padding: 
+}
+
+
+
+/* ---------------------------------------------------- */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    background: #1F2937;
+    height: 5%;
 }
