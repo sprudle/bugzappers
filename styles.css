@@ -39,10 +39,24 @@ a {
     color: #E5E7EB;
     margin-right: 0px;
 }
+
 .headerlogo img{
     display: flex;
     width: 60px;
 }
+
+.textheader {
+    width: 300px;
+    padding: 0px;
+}
+
+.threelinks {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+
+}
+
 
 .headertitle  {
     
@@ -194,22 +208,65 @@ ul {
     flex-flow: column;
     justify-content: center;
     height: 19%;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 32%;
+    padding-right: 32%;
 }
 
 .endsectioncontainer {
     display: flex;
-    flex-flow: column;
     background-color: #3882F6;
     border-radius: 8px;
+    height: 40%;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 85px;
+    padding-right: 85px;
+    color: #F9FAF8;
+}
+
+.buttonbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
 }
 
 .button-secondary {
     display: flex;
-    padding: 
+    background: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    font-weight: bold;
+
+
 }
 
+.callsign {
+    display: flex;
+    flex-flow: column;
+}
+
+.callaction {
+    display: flex;
+    margin: 0px;
+    height: 20px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.signup {
+    display: flex;
+    margin: 0px;
+    height: 20px;
+    font-size: 14px;
+
+}
 
 
 /* ---------------------------------------------------- */
